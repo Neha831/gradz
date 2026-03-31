@@ -1,0 +1,21 @@
+{
+  "name": "gradezy",
+  "private": true,
+  "description": "Monorepo: workspaces server/ (API) and client/ (Vite). Run npm install once here; use npm run dev for both.",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "dev": "concurrently -n api,vite -c blue,magenta \"npm run dev -w gradezy-server\" \"npm run dev -w gradezy-client\"",
+    "dev:server": "npm run dev -w gradezy-server",
+    "dev:client": "npm run dev -w gradezy-client",
+    "start": "npm run start -w gradezy-server",
+    "build": "npm run build -w gradezy-client",
+    "build:client": "npm run build -w gradezy-client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

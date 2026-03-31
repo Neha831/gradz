@@ -1,0 +1,66 @@
+.guest-page{max-width:980px;margin:24px auto;padding:16px}
+
+.guest-page-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.guest-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.guest-brand-logo-img {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  display: block;
+}
+
+.guest-brand-wordmark {
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.guest-brand-grad {
+  color: #1e3a8a;
+}
+
+.guest-brand-ezy {
+  color: #fb923c;
+}
+
+.guest-title{margin:0;font-size:1.25rem;font-weight:800;color:#0f172a}
+.guest-message{margin-bottom:12px;font-weight:700;color:var(--gz-gray-700)}
+.guest-card{background:var(--gz-surface);border:1px solid var(--gz-border);border-radius:var(--gz-radius);padding:16px}
+.guest-input{width:100%;padding:12px;border-radius:10px;border:1px solid var(--gz-border-input);margin-bottom:10px}
+.guest-btn{padding:10px 14px;border-radius:10px;border:0;font-weight:900;cursor:pointer}
+.guest-btn-blue{background:var(--gz-primary);color:#fff}
+.guest-btn-green{background:var(--gz-success);color:#fff}
+.guest-btn-outline{border:1px solid var(--gz-border-input);background:var(--gz-surface)}
+.guest-full{width:100%;padding:12px}
+.guest-warning{background:var(--gz-warning-soft);border:1px solid #fdba74;border-radius:var(--gz-radius);padding:16px;font-weight:700}
+.guest-header{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.guest-exam-title{font-weight:900}
+.guest-timer{font-weight:900;color:var(--gz-primary-700)}
+.guest-question{margin-top:14px;font-weight:800}
+.guest-options{display:grid;gap:8px;margin-top:10px}
+.guest-option{border:1px solid var(--gz-border);border-radius:10px;padding:10px;display:flex;gap:8px}
+.guest-footer{display:flex;justify-content:space-between;margin-top:12px}
+.guest-success{background:var(--gz-success-soft);border:1px solid #a7f3d0;border-radius:var(--gz-radius);padding:16px;font-weight:800}
+.guest-login-link-wrap{margin-top:20px;font-size:14px;font-weight:600}
+.guest-login-link{color:var(--gz-primary)}
+
+@media (max-width: 680px){
+  .guest-page{padding:10px}
+  .guest-footer{gap:8px;flex-direction:column}
+  .guest-footer .guest-btn{width:100%}
+}

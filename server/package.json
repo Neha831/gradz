@@ -1,0 +1,38 @@
+{
+  "name": "gradezy-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "audit:legacy-compat": "node scripts/audit-legacy-compat.js",
+    "audit:legacy-root-coverage": "node scripts/audit-legacy-root-coverage.js",
+    "audit:legacy-recursive-coverage": "node scripts/audit-legacy-recursive-coverage.js",
+    "audit:legacy-all": "npm run audit:legacy-compat ; npm run audit:legacy-root-coverage ; npm run audit:legacy-recursive-coverage",
+    "migrate:doctor": "node scripts/migration-doctor.js",
+    "migrate:mysql": "node scripts/migrate-mysql-to-mongo.js",
+    "verify:migration": "node scripts/verify-migration.js",
+    "migrate:all": "node scripts/migrate-and-verify.js",
+    "migrate:latest-report": "node scripts/print-latest-migration-report.js",
+    "migrate:tail-logs": "node scripts/tail-latest-migration-logs.js",
+    "migrate:open-latest": "node scripts/open-latest-migration-artifacts.js",
+    "fix:profile-upload-urls": "node scripts/fix-profile-upload-urls.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.14.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "scanned_files": 187,
+  "referenced_php_endpoints": 83,
+  "mapped_count": 72,
+  "unmapped_count": 11,
+  "actionable_unmapped_count": 0,
+  "non_actionable_unmapped_count": 11,
+  "mapped": [
+    "/add_student.php",
+    "/admin_snapshots.php",
+    "/admin_view.php",
+    "/allocate_exam.php",
+    "/api/gradezy_results.php",
+    "/api/ping.php",
+    "/apply.php",
+    "/cashify/default.php",
+    "/check_exam_code.php",
+    "/check_profile.php",
+    "/check_session.php",
+    "/crud.php",
+    "/dashboard.php",
+    "/db_config.php",
+    "/delete_exam_questions.php",
+    "/delete_exams.php",
+    "/delete_question.php",
+    "/delete_student.php",
+    "/download_result.php",
+    "/edit_student.php",
+    "/evaluate.php",
+    "/export_students.php",
+    "/fetch_chatbot_responses.php",
+    "/fetch_exam.php",
+    "/fetch_questions.php",
+    "/fetch_results.php",
+    "/get_exam_list.php",
+    "/get_exam_notifications.php",
+    "/get_profile.php",
+    "/get_result_analysis.php",
+    "/get_security_questions.php",
+    "/get_student_stats.php",
+    "/get_teacher_stats.php",
+    "/get_user_profile.php",
+    "/grant_permissions.php",
+    "/guest_exam_validate.php",
+    "/internship-apply.php",
+    "/log_ai_violation.php",
+    "/log_tab_switch.php",
+    "/login.php",
+    "/loginadmin.php",
+    "/loginstudent.php",
+    "/logout.php",
+    "/logoutadmin.php",
+    "/mail.php",
+    "/old.php",
+    "/pg/default.php",
+    "/pgm/default.php",
+    "/process_forgot_password.php",
+    "/register.php",
+    "/reset_password.php",
+    "/result_detail.php",
+    "/resultdashboard.php",
+    "/save_chatbot_responses.php",
+    "/save_exam.php",
+    "/send-email.php",
+    "/share_result.php",
+    "/show_result.php",
+    "/show_results.php",
+    "/show_student_result.php",
+    "/skillup/default.php",
+    "/start_exam.php",
+    "/submit_exam.php",
+    "/submit_student_feedback.php",
+    "/update_Student_stats.php",
+    "/update_profile_minimal.php",
+    "/update_profile_test.php",
+    "/update_question.php",
+    "/upload_excel.php",
+    "/upload_snapshot.php",
+    "/view_exam_snapshots.php",
+    "/view_student.php"
+  ],
+  "unmapped": [
+    "//bugs.php",
+    "//www.php",
+    "/PHPMailer/Exception.php",
+    "/PHPMailer/PHPMailer.php",
+    "/PHPMailer/SMTP.php",
+    "/edu/user/agreen1/testing/mrbs/web/Mail/RFC822.php",
+    "/mb-encode-mimeheader.php",
+    "/mhash.php",
+    "/net/bug.php",
+    "/pathinfo.php",
+    "/vendor/autoload.php"
+  ],
+  "actionable_unmapped": [],
+  "non_actionable_unmapped": [
+    "//bugs.php",
+    "//www.php",
+    "/PHPMailer/Exception.php",
+    "/PHPMailer/PHPMailer.php",
+    "/PHPMailer/SMTP.php",
+    "/edu/user/agreen1/testing/mrbs/web/Mail/RFC822.php",
+    "/mb-encode-mimeheader.php",
+    "/mhash.php",
+    "/net/bug.php",
+    "/pathinfo.php",
+    "/vendor/autoload.php"
+  ],
+  "references": {
+    "//bugs.php": [
+      "PHPMailer/PHPMailer.php"
+    ],
+    "//www.php": [
+      "PHPMailer/PHPMailer.php",
+      "PHPMailer/SMTP.php"
+    ],
+    "/PHPMailer/Exception.php": [
+      "apply.php",
+      "internship-apply.php",
+      "send-email.php"
+    ],
+    "/PHPMailer/PHPMailer.php": [
+      "apply.php",
+      "internship-apply.php",
+      "send-email.php"
+    ],
+    "/PHPMailer/SMTP.php": [
+      "apply.php",
+      "internship-apply.php",
+      "send-email.php"
+    ],
+    "/add_student.php": [
+      "add_student.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/controllers/userController.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/admin_snapshots.php": [
+      "admin_snapshots.php",
+      "client/src/App.jsx",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/admin_view.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/allocate_exam.php": [
+      "allocate_exam.php",
+      "dashboard.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/api/gradezy_results.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/api/ping.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/apply.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/cashify/default.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/check_exam_code.php": [
+      "main_exam_student.html",
+      "mern/server/src/routes/api.js",
+      "script.js",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/check_profile.php": [
+      "check_profile.php",
+      "main_exam_student.html",
+      "mern/server/src/models/Registration.js",
+      "mern/server/src/routes/api.js",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/check_session.php": [
+      "check_session.php",
+      "dash.html",
+      "exam_list_student.html",
+      "profile.html",
+      "result_analysis.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "show_student_result.php"
+    ],
+    "/crud.php": [
+      "crud.php",
+      "questions-crud.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/dashboard.php": [
+      "add_student.html",
+      "admin_chatbot_panel.html",
+      "contactusadmin.html",
+      "dashboard.php",
+      "Exams.html",
+      "exam_list_student_admin.html",
+      "exam_setup.html",
+      "faqadmin.html",
+      "login.php",
+      "loginadmin.php",
+      "questions-crud.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "show_results.php",
+      "Student.html"
+    ],
+    "/db_config.php": [
+      "api/gradezy_results.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/delete_exam_questions.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/delete_exams.php": [
+      "questions-crud.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/delete_question.php": [
+      "questions-crud.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/delete_student.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/download_result.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/edit_student.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/edu/user/agreen1/testing/mrbs/web/Mail/RFC822.php": [
+      "PHPMailer/PHPMailer.php"
+    ],
+    "/evaluate.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/export_students.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/fetch_chatbot_responses.php": [
+      "admin_chatbot_panel.html",
+      "dash.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/chatbotRoutes.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/fetch_exam.php": [
+      "main_exam_student.html",
+      "mern/server/src/routes/api.js",
+      "omr_exam_start.html",
+      "script.js",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/fetch_questions.php": [
+      "questions-crud.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/fetch_results.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/get_exam_list.php": [
+      "exam_list_student.html",
+      "exam_list_student_admin.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/get_exam_notifications.php": [
+      "get_exam_notifications.php",
+      "new-script.js",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/examRoutes.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/get_profile.php": [
+      "dash.html",
+      "get_profile.php",
+      "profile.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/models/User.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/get_result_analysis.php": [
+      "result_analysis.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/get_security_questions.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/get_student_stats.php": [
+      "dash.html",
+      "get_student_stats.php",
+      "new-script.js",
+      "profile.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/get_teacher_stats.php": [
+      "dashboard.php",
+      "loginadmin.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/get_user_profile.php": [
+      "dash.html",
+      "get_user_profile.php",
+      "main_exam_student.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/grant_permissions.php": [
+      "grant_permissions.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/guest_exam_validate.php": [
+      "guest_exam.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/controllers/examController.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/internship-apply.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/log_ai_violation.php": [
+      "main_exam_student.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/log_tab_switch.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/login.php": [
+      "client/src/App.jsx",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "show_student_result.php"
+    ],
+    "/loginadmin.php": [
+      "faqadmin.html",
+      "loginadmin.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "signupadmin.html"
+    ],
+    "/loginstudent.php": [
+      "login.html",
+      "loginstudent.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/logout.php": [
+      "dash.html",
+      "exam_list_student.html",
+      "exam_list_student_admin.html",
+      "new-script.js",
+      "profile.html",
+      "result_analysis.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "show_student_result.php"
+    ],
+    "/logoutadmin.php": [
+      "add_student.html",
+      "dashboard.php",
+      "Exams.html",
+      "exam_setup.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "show_results.php",
+      "Student.html"
+    ],
+    "/mail.php": [
+      "PHPMailer/PHPMailer.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/mb-encode-mimeheader.php": [
+      "PHPMailer/PHPMailer.php"
+    ],
+    "/mhash.php": [
+      "PHPMailer/SMTP.php"
+    ],
+    "/net/bug.php": [
+      "PHPMailer/PHPMailer.php"
+    ],
+    "/old.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/pathinfo.php": [
+      "PHPMailer/PHPMailer.php"
+    ],
+    "/pg/default.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/pgm/default.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/process_forgot_password.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/register.php": [
+      "client/src/App.jsx",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "signup.html"
+    ],
+    "/reset_password.php": [
+      "forget_pass.html",
+      "process_forgot_password.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/result_detail.php": [
+      "resultdashboard.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/resultdashboard.php": [
+      "result_detail.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/save_chatbot_responses.php": [
+      "admin_chatbot_panel.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/save_exam.php": [
+      "exam_setup.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/send-email.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/share_result.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/show_result.php": [
+      "result_detail.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/show_results.php": [
+      "client/src/App.jsx",
+      "dashboard.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "share_result.php",
+      "show_results.php",
+      "Student.html"
+    ],
+    "/show_student_result.php": [
+      "contactus.html",
+      "dash.html",
+      "exam_list_student.html",
+      "faq.html",
+      "profile.html",
+      "result_analysis.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "show_student_result.php"
+    ],
+    "/skillup/default.php": [
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/start_exam.php": [
+      "exam_list_student.html",
+      "exam_list_student_admin.html",
+      "new-script.js",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/submit_exam.php": [
+      "main_exam_student.html",
+      "mern/server/src/routes/api.js",
+      "omr_exam_start.html",
+      "script.js",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/submit_student_feedback.php": [
+      "main_exam_student.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/update_Student_stats.php": [
+      "save_exam.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/update_profile_minimal.php": [
+      "profile.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/update_profile_test.php": [
+      "profile.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/update_question.php": [
+      "questions-crud.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/upload_excel.php": [
+      "exam_setup.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/upload_snapshot.php": [
+      "main_exam_student.html",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js"
+    ],
+    "/vendor/autoload.php": [
+      "process_forgot_password.php"
+    ],
+    "/view_exam_snapshots.php": [
+      "dashboard.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "Student.html"
+    ],
+    "/view_student.php": [
+      "delete_student.php",
+      "edit_student.php",
+      "server/scripts/audit-legacy-compat.js",
+      "server/src/routes/legacyRoutes.js",
+      "Student.html"
+    ]
+  }
+}

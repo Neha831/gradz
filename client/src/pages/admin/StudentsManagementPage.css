@@ -1,0 +1,208 @@
+.students-mgmt-page {
+  background: var(--gz-admin-bg);
+  padding: 0;
+  max-width: 1280px;
+}
+
+.students-mgmt-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.students-mgmt-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gz-text-strong);
+}
+
+.students-mgmt-back-hub {
+  padding: 7px 14px;
+  border-radius: 6px;
+  border: 1px solid #64748b;
+  background: #64748b;
+  color: #fff;
+  font-weight: 600;
+  font-size: 11px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.students-mgmt-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.students-mgmt-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+}
+
+.students-mgmt-btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+.students-mgmt-btn-create {
+  background: #2563eb;
+  color: #fff;
+}
+
+.students-mgmt-btn-create:hover {
+  background: #1d4ed8;
+  color: #fff;
+}
+
+.students-mgmt-btn-excel {
+  background: #16a34a;
+  color: #fff;
+}
+
+.students-mgmt-btn-excel:hover {
+  background: #15803d;
+}
+
+.students-mgmt-msg {
+  margin-bottom: 8px;
+  color: var(--gz-gray-700);
+  font-weight: 600;
+  font-size: var(--gz-fs-admin-head);
+}
+
+.students-mgmt-loading {
+  font-weight: 600;
+  color: var(--gz-muted);
+  font-size: var(--gz-fs-admin-head);
+  margin-bottom: 8px;
+}
+
+.students-mgmt-table-wrap {
+  background: var(--gz-surface);
+  border: 1px solid var(--gz-border);
+  border-radius: 10px;
+  overflow: auto;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.06);
+}
+
+.students-mgmt-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.students-mgmt-table th {
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--gz-border);
+  text-transform: uppercase;
+  color: #6b7280;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background: #f9fafb;
+}
+
+.students-mgmt-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: middle;
+}
+
+.students-mgmt-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.students-mgmt-email {
+  word-break: break-all;
+}
+
+.students-mgmt-hash {
+  font-family: ui-monospace, monospace;
+  font-size: 11px;
+  color: #4b5563;
+  max-width: 200px;
+}
+
+.students-mgmt-cell-input {
+  width: 100%;
+  min-width: 0;
+  padding: 6px 8px;
+  border: 1px solid var(--gz-border-input);
+  border-radius: 6px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+.students-mgmt-nowrap {
+  white-space: nowrap;
+}
+
+.students-mgmt-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 8px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 0;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+}
+
+.students-mgmt-action svg {
+  width: 12px;
+  height: 12px;
+}
+
+.students-mgmt-action-edit {
+  background: #2563eb;
+}
+
+.students-mgmt-action-edit:hover {
+  background: #1d4ed8;
+}
+
+.students-mgmt-action-delete {
+  background: #dc2626;
+}
+
+.students-mgmt-action-delete:hover {
+  background: #b91c1c;
+}
+
+.students-mgmt-action-delete-confirm {
+  background: #991b1b;
+}
+
+.students-mgmt-action-save {
+  background: #16a34a;
+  margin-bottom: 4px;
+}
+
+.students-mgmt-action-cancel {
+  background: #64748b;
+  color: #fff;
+}
+
+.students-mgmt-empty {
+  padding: var(--gz-admin-pad-card);
+  color: var(--gz-muted);
+  font-size: var(--gz-fs-admin-head);
+  text-align: center;
+}

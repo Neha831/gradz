@@ -1,0 +1,392 @@
+.manage-q-page {
+  max-width: 1280px;
+}
+
+.manage-q-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.manage-q-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gz-text-strong);
+}
+
+.manage-q-back-dash {
+  padding: 7px 14px;
+  border-radius: 6px;
+  border: 1px solid #64748b;
+  background: #64748b;
+  color: #fff;
+  font-weight: 600;
+  font-size: 11px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.manage-q-msg {
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.manage-q-msg-error {
+  background: #fef2f2;
+  border-color: #fecaca;
+  color: #991b1b;
+}
+
+.manage-q-card {
+  background: var(--gz-surface);
+  border: 1px solid var(--gz-border);
+  border-radius: 10px;
+  padding: 16px 18px 18px;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.06);
+}
+
+.manage-q-card-gap {
+  margin-bottom: 18px;
+}
+
+.manage-q-card-danger-zone {
+  border-color: #fecaca;
+  background: #fffafa;
+}
+
+.manage-q-section-title {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gz-text-strong);
+}
+
+.manage-q-danger-title {
+  margin: 0 0 8px;
+  font-size: 17px;
+  font-weight: 800;
+  color: #991b1b;
+}
+
+.manage-q-danger-text {
+  margin: 0 0 14px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #7f1d1d;
+}
+
+.manage-q-loading {
+  padding: 16px;
+  color: var(--gz-muted);
+  font-size: 12px;
+}
+
+.manage-q-filter-row {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+}
+
+.manage-q-filter-input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 13px;
+  background: #fff;
+  color: var(--gz-text-strong);
+}
+
+.manage-q-filter-input::placeholder {
+  color: #9ca3af;
+}
+
+.manage-q-filter-input:focus {
+  outline: none;
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.manage-q-load-btn {
+  flex-shrink: 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 0;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.manage-q-load-btn:hover {
+  background: #1d4ed8;
+}
+
+.manage-q-table-wrap {
+  overflow-x: auto;
+}
+
+.manage-q-table-wide {
+  margin-top: 4px;
+}
+
+.manage-q-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.manage-q-table th {
+  text-align: left;
+  padding: 10px 12px;
+  font-weight: 700;
+  color: #374151;
+  border-bottom: 1px solid var(--gz-border);
+  background: #f9fafb;
+}
+
+.manage-q-th-actions {
+  text-align: center;
+}
+
+.manage-q-td-actions {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.manage-q-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: top;
+}
+
+.manage-q-table-questions td {
+  font-size: 11px;
+}
+
+.manage-q-row-alt td {
+  background: #fafafa;
+}
+
+.manage-q-mono {
+  font-family: ui-monospace, monospace;
+  font-size: 11px;
+}
+
+.manage-q-cell-id {
+  max-width: 72px;
+  white-space: nowrap;
+}
+
+.manage-q-cell-q {
+  max-width: 220px;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+.manage-q-cell-opt {
+  max-width: 120px;
+  word-break: break-word;
+  line-height: 1.35;
+  color: #4b5563;
+}
+
+.manage-q-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.manage-q-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+}
+
+.manage-q-btn svg {
+  width: 11px;
+  height: 11px;
+}
+
+.manage-q-btn-view {
+  background: #22c55e;
+}
+
+.manage-q-btn-view:hover {
+  background: #16a34a;
+}
+
+.manage-q-btn-del {
+  background: #dc2626;
+}
+
+.manage-q-btn-del:hover {
+  background: #b91c1c;
+}
+
+.manage-q-btn-add-q {
+  background: #2563eb;
+}
+
+.manage-q-btn-add-q:hover {
+  background: #1d4ed8;
+}
+
+.manage-q-overview-add {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.manage-q-overview-add-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.manage-q-overview-add-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gz-text-strong);
+  line-height: 1.35;
+}
+
+.manage-q-overview-add-sub {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.manage-q-overview-add-cancel {
+  flex-shrink: 0;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  color: #475569;
+  cursor: pointer;
+}
+
+.manage-q-overview-add-cancel:hover {
+  background: #f8fafc;
+}
+
+.manage-q-overview-add-hint {
+  margin: 0 0 14px;
+  font-size: 11px;
+  color: #6b7280;
+}
+
+.manage-q-overview-add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.manage-q-overview-add-field {
+  margin-bottom: 12px;
+}
+
+.manage-q-overview-add-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #374151;
+}
+
+.manage-q-overview-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 13px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 68px;
+}
+
+.manage-q-overview-textarea:focus {
+  outline: none;
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.manage-q-overview-input-full {
+  width: 100%;
+  box-sizing: border-box;
+  flex: none;
+}
+
+.manage-q-overview-add-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 14px;
+}
+
+.manage-q-overview-add-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 4px;
+}
+
+.manage-q-overview-add-row .manage-q-overview-add-field {
+  margin-bottom: 0;
+  min-width: 120px;
+}
+
+.manage-q-overview-add-actions {
+  margin-top: 6px;
+}
+
+.manage-q-btn-wide {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+
+.manage-q-btn-danger-all {
+  padding: 10px 18px;
+  font-size: 12px;
+}
+
+.manage-q-empty {
+  padding: 20px;
+  text-align: center;
+  color: var(--gz-muted);
+  font-size: 12px;
+}
+
+.manage-q-empty-inline {
+  border-top: 1px solid #f3f4f6;
+  margin-top: 0;
+}
+

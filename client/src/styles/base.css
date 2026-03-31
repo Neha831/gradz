@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --gz-bg: #f9fafb;
+  --gz-surface: #ffffff;
+  --gz-text: #111827;
+  --gz-muted: #6b7280;
+  --gz-border: #e5e7eb;
+  --gz-border-input: #d1d5db;
+  --gz-bg-subtle: #f8fafc;
+  --gz-bg-hover: #f3f4f6;
+  --gz-text-strong: #111827;
+  --gz-primary: #2563eb;
+  --gz-primary-700: #1d4ed8;
+  --gz-info: #0891b2;
+  --gz-indigo: #4338ca;
+  --gz-purple: #7c3aed;
+  --gz-success: #16a34a;
+  --gz-danger: #dc2626;
+  --gz-danger-dark: #b91c1c;
+  --gz-danger-900: #7f1d1d;
+  --gz-warning: #ea580c;
+  --gz-warning-dark: #9a3412;
+  --gz-warning-soft: #fff7ed;
+  --gz-success-soft: #ecfdf5;
+  --gz-danger-soft: #fef2f2;
+  --gz-gray-400: #9ca3af;
+  --gz-gray-500: #6b7280;
+  --gz-gray-700: #374151;
+  --gz-blue-soft: #dbeafe;
+  --gz-red-800: #991b1b;
+  --gz-red-200: #fecaca;
+  --gz-green-800: #065f46;
+  --gz-green-200: #a7f3d0;
+  --gz-slate-100: #f1f5f9;
+  --gz-slate-300: #cbd5e1;
+  --gz-slate-700: #334155;
+  --gz-slate-500: #64748b;
+  --gz-admin-bg: #eef0f3;
+  --gz-fs-admin-title: 30px;
+  --gz-fs-admin-subtitle: 22px;
+  --gz-fs-admin-head: 12px;
+  --gz-fs-admin-body: 11px;
+  --gz-fs-admin-label: 10px;
+  --gz-admin-radius-card: 8px;
+  --gz-admin-radius-control: 6px;
+  --gz-admin-radius-tight: 4px;
+  --gz-admin-pad-card: 10px;
+  --gz-admin-pad-control-y: 8px;
+  --gz-admin-pad-control-x: 10px;
+  --gz-admin-pad-btn-y: 7px;
+  --gz-admin-pad-btn-x: 11px;
+  --gz-radius: 12px;
+  --gz-h2: 22px;
+  --gz-space-1: 8px;
+  --gz-space-2: 12px;
+  --gz-space-3: 16px;
+  --gz-space-4: 24px;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background: var(--gz-bg);
+  color: var(--gz-text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  transition: transform 0.05s ease, filter 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  filter: brightness(0.98);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+button:disabled {
+  opacity: 0.8;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--gz-primary);
+  outline-offset: 1px;
+}

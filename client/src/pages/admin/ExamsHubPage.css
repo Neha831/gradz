@@ -1,0 +1,85 @@
+.exams-hub-page {
+  max-width: 960px;
+}
+
+.exams-hub-title {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gz-text-strong);
+  letter-spacing: -0.02em;
+}
+
+.exams-hub-section-label {
+  margin: 0 0 18px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gz-text-strong);
+}
+
+.exams-hub-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.exams-hub-card {
+  background: var(--gz-surface);
+  border: 1px solid var(--gz-border);
+  border-radius: 10px;
+  padding: 20px 18px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.07);
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  display: block;
+}
+
+.exams-hub-card:hover {
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.1);
+  border-color: #d1d5db;
+}
+
+.exams-hub-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 12px;
+}
+
+.exams-hub-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.exams-hub-icon-blue {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.exams-hub-icon-teal {
+  background: #ecfdf5;
+  color: #0d9488;
+}
+
+.exams-hub-card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.exams-hub-card-desc {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: #6b7280;
+}
+
+@media (max-width: 700px) {
+  .exams-hub-cards {
+    grid-template-columns: 1fr;
+  }
+}

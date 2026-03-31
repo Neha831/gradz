@@ -1,0 +1,54 @@
+.admin-layout-page :is(
+  .students-mgmt-table-wrap,
+  .add-student-card,
+  .admin-results-card,
+  .snapshots-card,
+  .snapshots-image-card,
+  .alloc-card,
+  .admin-chatbot-card
+) {
+  border-radius: var(--gz-admin-radius-card);
+  padding: var(--gz-admin-pad-card);
+}
+
+.admin-layout-page :is(
+  .questions-input,
+  .questions-textarea,
+  .add-student-input,
+  .admin-results-input,
+  .snapshots-input,
+  .alloc-input,
+  .admin-chatbot-textarea
+) {
+  border-radius: var(--gz-admin-radius-control);
+  padding: var(--gz-admin-pad-control-y) var(--gz-admin-pad-control-x);
+  font-size: var(--gz-fs-admin-head);
+}
+
+.admin-layout-page :is(
+  .questions-btn,
+  .students-mgmt-btn,
+  .add-student-submit,
+  .admin-results-btn,
+  .snapshots-btn,
+  .alloc-submit,
+  .admin-chatbot-btn
+) {
+  border-radius: var(--gz-admin-radius-control);
+  padding: var(--gz-admin-pad-btn-y) var(--gz-admin-pad-btn-x);
+  font-size: var(--gz-fs-admin-body);
+}
+
+.admin-layout-page :is(
+  .students-mgmt-table th,
+  .admin-results-table th
+) {
+  font-size: var(--gz-fs-admin-label);
+}
+
+.admin-layout-page :is(
+  .students-mgmt-table td,
+  .admin-results-table td
+) {
+  font-size: var(--gz-fs-admin-body);
+}

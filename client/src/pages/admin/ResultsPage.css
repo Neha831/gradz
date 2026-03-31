@@ -1,0 +1,41 @@
+.admin-results-page{max-width:1100px;background:var(--gz-admin-bg)}
+.admin-results-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:18px}
+.admin-results-title{font-size:22px;margin:0;font-weight:700;color:var(--gz-text-strong)}
+.admin-results-back-students{padding:7px 14px;border-radius:6px;border:1px solid #64748b;background:#64748b;color:#fff;font-weight:600;font-size:11px;cursor:pointer;white-space:nowrap;flex-shrink:0}
+.admin-results-back-students:hover{background:#475569}
+.admin-results-card{background:var(--gz-surface);border:1px solid var(--gz-border);border-radius:10px;margin-bottom:14px;padding:16px 18px;box-shadow:0 1px 4px rgba(15,23,42,.06)}
+.admin-results-card-filter{padding:14px 18px}
+.admin-results-filter-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.admin-results-label{font-size:14px;font-weight:600;color:#374151;white-space:nowrap}
+.admin-results-input{flex:1 1 220px;min-width:160px;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:14px}
+.admin-results-input:focus{outline:none;border-color:#93c5fd;box-shadow:0 0 0 2px rgba(59,130,246,.2)}
+.admin-results-secondary-toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.admin-results-btn{border:0;color:#fff;font-weight:700;cursor:pointer;padding:8px 14px;border-radius:8px;font-size:12px}
+.admin-results-btn-primary{flex-shrink:0}
+.admin-results-btn-blue{background:var(--gz-primary)}
+.admin-results-btn-green{background:var(--gz-success)}
+.admin-results-btn-red{background:var(--gz-danger)}
+.admin-results-btn-dark-red{background:var(--gz-danger-dark)}
+.admin-results-message{color:var(--gz-muted);font-weight:600;font-size:var(--gz-fs-admin-head);margin:6px 0}
+.admin-results-table-wrap{overflow-x:auto}
+.admin-results-table{width:100%;border-collapse:collapse}
+.admin-results-table th{text-align:left;padding:8px;color:var(--gz-muted);text-transform:uppercase}
+.admin-results-table thead tr{background:#f8fafc}
+.admin-results-table tr{border-top:1px solid var(--gz-border)}
+.admin-results-table tbody tr:hover{background:#f8fafc}
+.admin-results-table td{padding:8px}
+.admin-results-student{font-weight:700}
+.admin-results-bold{font-weight:700}
+.admin-results-score{font-weight:700;color:var(--gz-success)}
+.admin-results-share{padding:5px 9px;border-radius:var(--gz-admin-radius-control);border:0;color:#fff;font-weight:700;cursor:pointer;font-size:var(--gz-fs-admin-label)}
+.admin-results-share-on{background:var(--gz-success)}
+.admin-results-share-off{background:var(--gz-gray-400)}
+
+@media (max-width: 900px){
+  .admin-results-filter-row .admin-results-input{flex:1 1 100%}
+  .admin-results-btn-primary{width:100%}
+}
+
+@media (max-width: 560px){
+  .admin-results-secondary-toolbar .admin-results-btn{flex:1 1 calc(50% - 4px)}
+}

@@ -1,0 +1,133 @@
+.add-student-page {
+  max-width: 800px;
+  background: var(--gz-admin-bg);
+}
+
+.add-student-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.add-student-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gz-text-strong);
+}
+
+.add-student-back-hub {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 0;
+  background: #64748b;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.add-student-back-hub:hover {
+  background: #475569;
+}
+
+.add-student-card {
+  background: var(--gz-surface);
+  border: 1px solid var(--gz-border);
+  border-radius: 10px;
+  padding: 22px 24px 20px;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.06);
+}
+
+.add-student-card-heading {
+  margin: 0 0 20px;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--gz-text-strong);
+}
+
+.add-student-row {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.add-student-row-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.add-student-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.add-student-field-full {
+  margin-bottom: 16px;
+}
+
+.add-student-field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.add-student-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #fff;
+  color: var(--gz-text-strong);
+}
+
+.add-student-input:focus {
+  outline: none;
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.add-student-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+  padding-top: 8px;
+}
+
+.add-student-submit {
+  padding: 10px 22px;
+  border-radius: 8px;
+  border: 0;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-student-submit:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.add-student-submit:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.add-student-msg {
+  margin-top: 14px;
+  font-weight: 600;
+  color: #374151;
+  font-size: 13px;
+}
+
+@media (max-width: 640px) {
+  .add-student-row-2 {
+    grid-template-columns: 1fr;
+  }
+}

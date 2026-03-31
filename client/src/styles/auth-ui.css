@@ -1,0 +1,52 @@
+.login-page,
+.register-page,
+.forgot-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.login-form-card,
+.register-form-card,
+.forgot-card {
+  width: 100%;
+  background: var(--gz-surface);
+  border: 1px solid var(--gz-border);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+}
+
+.login-input,
+.register-input,
+.forgot-input {
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--gz-border-input);
+  font-size: 9px;
+  background: #f9fafb;
+}
+
+.login-submit,
+.register-submit,
+.forgot-btn-primary,
+.forgot-btn-success {
+  background: var(--gz-primary);
+  color: #fff;
+}
+
+.login-submit,
+.register-submit,
+.forgot-btn {
+  border-radius: 4px;
+  border: 0;
+  font-weight: 700;
+  font-size: 9px;
+}
+
+.login-link-btn,
+.register-link-btn,
+.forgot-link {
+  color: var(--gz-primary);
+}

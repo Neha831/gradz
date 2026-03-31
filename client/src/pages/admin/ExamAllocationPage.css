@@ -1,0 +1,109 @@
+.alloc-page {
+  background: var(--gz-admin-bg);
+  min-height: 100%;
+  padding-bottom: 32px;
+}
+
+.alloc-page-heading {
+  margin: 0 0 28px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gz-text-strong);
+  letter-spacing: -0.02em;
+}
+
+.alloc-page .alloc-card {
+  max-width: 520px;
+  margin: 0 auto;
+  background: var(--gz-surface);
+  border: 1px solid var(--gz-border);
+  border-radius: 12px;
+  padding: 28px 28px 26px;
+  box-shadow: 0 4px 24px rgba(15, 23, 42, 0.08);
+}
+
+.alloc-card-title {
+  margin: 0 0 22px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.alloc-field {
+  margin-bottom: 18px;
+}
+
+.alloc-field:last-of-type {
+  margin-bottom: 22px;
+}
+
+.alloc-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.alloc-page .alloc-field .alloc-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #fff;
+  color: var(--gz-text-strong);
+}
+
+.alloc-page .alloc-field .alloc-input::placeholder {
+  color: #9ca3af;
+}
+
+.alloc-page .alloc-field .alloc-input:focus {
+  outline: none;
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+}
+
+.alloc-page .alloc-field .alloc-select {
+  cursor: pointer;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2364748b' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 40px;
+}
+
+.alloc-page .alloc-submit {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 14px 18px;
+  border: 0;
+  border-radius: 8px;
+  background: #1199b1;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.alloc-page .alloc-submit:hover:not(:disabled) {
+  background: #0e7f94;
+}
+
+.alloc-page .alloc-submit:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.alloc-msg {
+  margin-top: 14px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #374151;
+  line-height: 1.4;
+}

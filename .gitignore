@@ -1,0 +1,8 @@
+# npm workspaces: hoisted deps often live in root node_modules/
+node_modules/
+
+**/.env
+**/.env.local
+**/dist/
+*.log
+.DS_Store

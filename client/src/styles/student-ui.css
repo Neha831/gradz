@@ -1,0 +1,57 @@
+.student-layout-page :is(
+  .student-dashboard-stat-card,
+  .student-dashboard-quick-card,
+  .student-exam-list-card,
+  .student-results-card,
+  .exam-student-card,
+  .exam-student-modal,
+  .exam-student-verify-card,
+  .profile-card,
+  .profile-stats-card,
+  .profile-stat-box
+) {
+  border-radius: var(--gz-admin-radius-card);
+}
+
+.student-layout-page :is(
+  .student-exam-list-back,
+  .student-results-back,
+  .exam-student-back,
+  .profile-back-btn
+) {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--gz-admin-radius-control);
+  border: 0;
+  background: var(--gz-danger);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.student-layout-page :is(
+  .student-exam-list-back,
+  .student-results-back,
+  .exam-student-back,
+  .profile-back-btn
+) svg {
+  width: 12px;
+  height: 12px;
+}
+
+.student-layout-page :is(
+  .student-exam-list-table th,
+  .student-results-table th
+) {
+  font-size: var(--gz-fs-admin-label);
+}
+
+.student-layout-page :is(
+  .student-exam-list-table td,
+  .student-results-table td
+) {
+  font-size: var(--gz-fs-admin-body);
+}
